@@ -4,10 +4,15 @@
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.h2-about{
+  margin-bottom: 5vh;
+}
 body{
   background-image: url(fundo.avif);
   background-size: cover;
+}
+.p-about{
+  line-height: 1.5em;
 }
 header{
   justify-content: center;
@@ -60,15 +65,59 @@ header{
   width: 90%;
   height: 75vh;
   background-color: #f0f0f0;
-grid-template-columns: 50% 50%;
-display: grid;
+  grid-template-columns: 50% 50%;
+  display: grid;
 }
 
 
 .section-left{
   grid-column: 1/2;
   align-self: center;
+  margin-left: 8vw;
 }
 .section-right{
   grid-column: 2/2;
+}
+
+.main-gastro {
+  background-image: url(cardapio.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.main-gastro-all{
+  
+  display: grid;
+  width: 90vw;
+  text-align: center;
+  grid-template-columns: auto auto auto;
+
+}
+.imagem-prato{
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+}
+.div-gastro{
+  margin: 20px;
+  border: 1px solid #000;
+  padding: 10px;
+  align-items: center;
+  border-radius: 20px;
+  display: flex;
+  color: #f0f0f0;
+  text-shadow: 2px 1px #000;
+  font-weight: 800;
+  backdrop-filter: blur(10px);
+  width: 80vw;
+}
+.p-gastro{
+  width: 50vw;
+  text-align: center;
+}
+.div-comida{
+  text-align: center;
+}
+.h2-comida{
+  margin-bottom: 5vh;
 }
