@@ -93,14 +93,14 @@ header{
 
 }
 .imagem-prato{
-  width: 400px;
-  height: 300px;
+  width: 20vw;
+  height: 30vh;
   border-radius: 20px;
   margin-right: 5vw;
 }
 .imagem-prato2{
-  width: 400px;
-  height: 300px;
+  width: 20vw;
+  height: 30vh;
   border-radius: 20px;
   margin-left: 5vw;
 }
@@ -129,8 +129,8 @@ header{
   margin-bottom: 5vh;
 }
 .imagem-ctn{
-  width: 400px;
-  height: 250px;
+  width: 20vw;
+  height: 30vh;
 }
 .home{
   align-items: baseline;
